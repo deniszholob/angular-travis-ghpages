@@ -2,6 +2,11 @@ language: node_js
 node_js:
     - stable
 
+# blocklist
+branches:
+  except:
+    - gh-pages # will be deployed to, no need to build it
+
 after_success:
     - npm run build
 

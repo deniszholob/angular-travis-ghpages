@@ -6,7 +6,6 @@
         "ng": "ng",
         "start": "ng serve --port 9009",
         "build": "ng build --prod --aot",
-        "test": "ng test --single-run",
         "lint": "ng lint"
     },
     "dependencies": {

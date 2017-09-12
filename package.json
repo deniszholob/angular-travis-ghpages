@@ -5,7 +5,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve --port 9009",
-        "build": "ng build --prod --aot",
+        "build": "ng build --prod --aot --base-href ./",
         "test": "echo 'No tests yet...'",
         "lint": "ng lint"
     },
